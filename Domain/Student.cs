@@ -12,7 +12,11 @@ namespace Domain
         [Key]
         public int studentID { get; set; }
         [Required]
+        public int studentCode { get; set; }
+        [Required]
         public string studentName { get; set; }
+        [Required]
+        public string studentLastName { get; set; }
         [Required]
         public string studentAddress { get; set; }
     }

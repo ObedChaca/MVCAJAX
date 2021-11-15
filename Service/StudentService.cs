@@ -48,6 +48,8 @@ namespace Service
                 studentNew.studentName = student.studentName;
                 studentNew.studentAddress = student.studentAddress;
                 //
+                studentNew.studentCode = student.studentCode;
+                studentNew.studentLastName = student.studentLastName;
                 context.SaveChanges();
             }
         }

@@ -20,8 +20,10 @@ namespace MVCAJAX.Controllers
                          {
                              ID = c.studentID,
                              Address = c.studentAddress,
-                             Name = c.studentName
+                             Name = c.studentName,
                              //
+                             Code = c.studentCode,
+                             LastName = c.studentLastName
                          }).ToList();
             return View(model);
         }
